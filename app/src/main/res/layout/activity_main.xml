@@ -5,4 +5,28 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity" />
+    tools:context=".MainActivity" >
+
+    <EditText
+        android:id="@+id/etAppName"
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        android:ems="10"
+        android:inputType="text"
+        android:textSize="34sp"
+        android:text="Fluffy's Petopia" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="492dp"
+        app:srcCompat="@drawable/imad13" />
+
+    <Button
+        android:id="@+id/btnNextScreen"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:textSize="34sp"
+        android:backgroundTint="@color/material_dynamic_primary80"
+        android:text="Get Started" />
+</LinearLayout>
